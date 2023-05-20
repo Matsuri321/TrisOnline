@@ -15,22 +15,6 @@ body {
     /* background-color: #006666; */
     background-color: #dbd8e3;
 }
-
-
-/* position: relative; */
-
-
-/* .topDiv { */
-
-
-/* box-shadow: 5px 10px 8px 10px #888888; */
-
-
-/* box-shadow: 5px 10px 8px 10px #006666; */
-
-
-/* } */
-
 .container {
     width: 60vw;
     height: 70vh;
@@ -232,10 +216,6 @@ button[type='submit'] {
     background-color: #352f44;
     border-radius: 50%;
 }
-
-
-/* .board.circle .cell:not(.x):not(.circle):hover::after, */
-
 .board.circle .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.x .cell:not(.x):not(.circle):hover::before {
