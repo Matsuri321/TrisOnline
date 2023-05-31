@@ -12,7 +12,6 @@
 }
 
 body {
-    /* background-color: #006666; */
     background-color: #dbd8e3;
 }
 .container {
@@ -38,7 +37,6 @@ body {
 
 .mainbar {
     background-color: #352f44;
-    /* position: relative; */
 }
 
 .board {
@@ -46,7 +44,6 @@ body {
     margin: auto;
     margin-top: 10%;
     top: 10%;
-    /* left: 5%; */
      display: grid; 
     grid-template-columns: repeat(3, auto);
     justify-content: center;
@@ -55,8 +52,6 @@ body {
 }
 
 .cell {
-    /* position: relative; */
-    /* display: table; */
     width: 100px;
     height: 100px;
     border: 1px solid white;
@@ -149,12 +144,10 @@ h1::after {
 }
 
 .sidebar ul li {
-    /* display: block; */
     width: 95%;
     margin: 0 auto;
     padding: 5px;
     height: 30px;
-    /* color: white; */
     font-size: 1rem;
     background-color: #dfecec;
 }
@@ -167,7 +160,6 @@ button[type='submit'] {
     display: block;
     width: 95%;
     margin: 0 auto;
-    /* margin-top: 0x; */
     height: 30px;
     color: white;
     font-size: 1.3rem;
@@ -201,9 +193,7 @@ button[type='submit'] {
     height: 94px;
     width: 90px;
     background-color: white;
-    /* transform: rotate(45deg); */
     border-radius: 50%;
-    /* display: inline-block; */
 }
 
 .board.circle .cell:not(.x):not(.circle):hover::after,
@@ -212,7 +202,6 @@ button[type='submit'] {
     position: absolute;
     height: 84px;
     width: 80px;
-    /* background-color: #94b8b8; */
     background-color: #352f44;
     border-radius: 50%;
 }
